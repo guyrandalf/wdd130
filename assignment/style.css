@@ -1,0 +1,30 @@
+body {
+  background-color: rgba(255, 20, 196, 0.425);
+  width: 350px;
+  margin: 0 auto;
+}
+
+div {
+  text-align: center;
+}
+
+ol {
+  text-align: left;
+}
+
+img {
+  width: 200px;
+}
+
+h1,
+p {
+  color: #ffffff;
+}
+
+.topic {
+  font-weight: 600;
+}
+
+.topic:hover {
+  color: #000000;
+}
