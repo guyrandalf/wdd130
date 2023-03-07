@@ -100,6 +100,12 @@ nav a:hover {
     font-size: 2em;
     margin-top: 10px;
 }
+.faq-title-heading {
+    color: rgb(221, 207, 80);    
+    font-size: 1.9em;
+    font-weight: normal;
+    text-align: center;
+}
 .home-grid {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
@@ -220,6 +226,37 @@ footer .social a:hover {
 #hero-img {
     width: 100%;
 }
+
+.faq-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.accordion {
+    box-shadow: 5px 5px 10px #6f7364;
+    background-color: rgb(221, 207, 80);
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #60bbdf; 
+    font-weight: 600;
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }
 
 
 @media screen and (max-width: 900px) {
