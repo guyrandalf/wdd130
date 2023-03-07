@@ -55,6 +55,20 @@ nav {
     grid-row: 1/3;
     z-index: -1;
 }
+#faq {
+    display: grid;
+    grid-template-columns: 1fr;        
+    justify-content: center;
+    align-items: center;
+}
+#faq-msg {
+    position: absolute;
+    left: 28%;
+}
+#faq-img {
+    width: 100%;
+    height: 300px;
+}
 #hero-msg {
     grid-column: 2/3;
     grid-row: 1/2;
@@ -75,6 +89,12 @@ nav a:hover {
     color: black;
 }
 .home-title {
+    color: rgb(221, 207, 80);
+    font-family: "Shadows Into Light", Copperplate, Papyrus;
+    font-size: 2em;
+    margin-top: 10px;
+}
+.faq-title {
     color: rgb(221, 207, 80);
     font-family: "Shadows Into Light", Copperplate, Papyrus;
     font-size: 2em;
