@@ -298,7 +298,35 @@ footer p a:hover {
 		padding-top: 20px;
 	}
 
-	.services {		
+	.services {
 		grid-template-columns: 1fr;
+	}
+
+	.about,
+	.more,
+	.contact div {
+		grid-template-columns: 1fr;
+		padding: 40px 10px;
+	}
+
+	.contact img {
+		display: none;
+	}
+
+	.contact div .contact-form {
+		flex-direction: column;
+		margin-top: -50px;
+	}
+
+	.contact div .contact-form h4 {
+		font-size: 14px;
+	}
+
+	.works div {		
+		grid-template-columns: 1fr;
+	}
+	
+	footer {
+		flex-direction: column;		
 	}
 }
