@@ -129,8 +129,13 @@ nav a:hover {
 	gap: 20px;
 }
 
+.services div img {
+	width: 100px;	
+	align-self: center;
+}
+
 .services div h4 {
-	font-size: 30px;
+	font-size: 20px;
 }
 
 footer {
@@ -158,8 +163,7 @@ footer p {
 	font-size: 1em;	
 }
 
-footer .social img {
-	padding-top: 15px;
+footer .social img {	
 	height: 100%;
 }
 
