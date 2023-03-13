@@ -114,8 +114,7 @@ nav a:hover {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	margin: 100px;
-	gap: 20px;
-	font-size: 16px;
+	gap: 20px;	
 }
 
 .services div {	
@@ -134,9 +133,31 @@ nav a:hover {
 	align-self: center;
 }
 
-.services div h4 {
-	font-size: 20px;
+.about {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);	
+	gap: 20px;
+	padding: 40px;
+	background-color: var(--primary-color);
 }
+
+.about div h4 {
+	color: var(--accent1-color);
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+.about img {
+	width: 100%;	
+	align-self: center;
+	border-radius: 10px;
+}
+
+.works {
+	display: grid;	
+}
+
+.works 
 
 footer {
 	background-color: var(--primary-color);
