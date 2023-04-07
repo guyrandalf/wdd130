@@ -177,6 +177,34 @@ nav a:hover {
 	justify-items: center;
 }
 
+.works div div div {
+	grid-column: 1/-1;
+	padding: 10px;
+	background-color: var(--secondary-color);	
+	gap: 10px;
+	align-items: center;
+	display: flex;
+	flex-direction: column;	
+	border-radius: 5px;
+}
+
+.works div div div span {
+	color: var(--headline-color-on-white);
+	font-weight: 500;
+	font-size: 14px;
+}
+
+.works div div div a {
+	display: inline;
+	background-color: var(--primary-color);
+	transition: .5s;
+	color: var(--accent2-color);
+	text-decoration: none;
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 12px;
+}
+
 .works div div img {
 	width: 300px;
 	grid-row: 1/2;
